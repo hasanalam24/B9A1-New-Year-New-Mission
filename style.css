@@ -1,0 +1,162 @@
+header {
+    background-image: url(resources/Banner\ Image.png);
+    background-repeat: no-repeat;
+    width: 100vw;
+    height: 100vh;
+    border-radius: none;
+    text-align: center;
+
+
+}
+
+.header {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.head1 {
+    color: #FFF;
+    font-size: 32px;
+    font-weight: 400;
+    margin-bottom: 0;
+
+}
+
+.head2 {
+    margin-top: 20px;
+    color: #FFF;
+    font-size: 80px;
+    font-weight: 900;
+
+}
+
+
+/* Discount Part */
+
+.discount-offer {
+    text-align: center;
+    margin-left: 20%;
+    margin-right: 20%;
+
+}
+
+.offer {
+    color: #F00;
+    text-align: center;
+    font-size: 88px;
+    font-weight: 700;
+
+}
+
+.offer-title {
+    color: #F00;
+    font-size: 24px;
+    font-weight: 500;
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+}
+
+.categoris {
+    color: #070211;
+    font-size: 48px;
+    font-weight: 700;
+    margin-top: 20px;
+}
+
+
+/* <!-- Welcome Midnight Party --> */
+
+.midnight-party {
+    background-image: url(resources/Vectorrr.png);
+    width: 100vw;
+    height: 100vh;
+    background-repeat: no-repeat;
+    padding: 100px 100px;
+    display: flex;
+    margin-top: 10%;
+    margin-bottom: 0;
+
+
+}
+
+.party-width {
+    width: 50%;
+
+}
+
+.midnight {
+    color: #FFF;
+    font-size: 64px;
+    font-weight: 900;
+    margin-bottom: 30px;
+}
+
+
+.party-description {
+    color: rgba(255, 255, 255, 0.80);
+    font-size: 18px;
+    font-weight: 400;
+    margin-top: 20px;
+}
+
+.btn-primary {
+    color: white;
+    border-radius: 10px;
+    background-color: #F00;
+    border: 0;
+    padding: 10px 20px;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+#party-img {
+    margin-left: 60px;
+}
+
+
+/* <!-- Location and Address --> */
+
+
+.time-address {
+    background-color: rgba(255, 0, 0, 0.07);
+    text-align: center;
+    line-height: 8px;
+    padding: 50px 50px;
+    margin-top: -150px;
+}
+
+.primary-color {
+    color: #F00;
+
+}
+
+
+/* <!-- Coming Soon Offer --> */
+
+.coming-soon-box {
+    display: flex;
+    margin-top: 10%;
+
+}
+
+.offer-width {
+    width: 33%;
+    margin-right: 100px;
+}
+
+.soon-title {
+    color: #070211;
+    font-size: 30px;
+    font-weight: 800;
+    margin-top: -10px;
+    margin-bottom: 0;
+}
+
+.soon-description {
+    color: rgba(7, 2, 17, 0.60);
+    font-size: 20px;
+
+}
