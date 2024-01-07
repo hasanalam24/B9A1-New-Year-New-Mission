@@ -139,12 +139,27 @@ header {
 .coming-soon-box {
     display: flex;
     margin-top: 10%;
+    align-items: center;
 
 }
 
-.offer-width {
-    width: 33%;
+.offer-width-1 {
+    width: 30%;
+    align-content: center;
     margin-right: 100px;
+}
+
+.offer-width-2 {
+    width: 40%;
+    align-content: center;
+    margin-right: 100px;
+    padding-left: 50px;
+}
+
+.offer-width-3 {
+    width: 30%;
+    align-content: center;
+
 }
 
 .soon-title {
@@ -159,4 +174,18 @@ header {
     color: rgba(7, 2, 17, 0.60);
     font-size: 20px;
 
+}
+
+
+.border-cirle {
+    border: 10px solid red;
+    border-radius: 50%;
+    padding: 15px;
+}
+
+.year-style {
+    color: #F00;
+    font-size: 40px;
+    font-weight: 600;
+    margin-bottom: 0;
 }
