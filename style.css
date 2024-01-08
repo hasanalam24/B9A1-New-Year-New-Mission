@@ -191,6 +191,55 @@ header {
 }
 
 
+/* <!-- Holiday Sale Part --> */
+
+
+.holiday-sale {
+    margin-top: 10%;
+    margin-bottom: 10%;
+}
+
+.holiday-title {
+    text-align: center;
+}
+
+.holi-percent {
+    font-size: 50px;
+    margin-top: -20px;
+    margin-bottom: 0px;
+}
+
+.holi-color {
+    color: #F00;
+}
+
+.holiday-img {
+    display: flex;
+    background-image: url(resources/Rectangle\ 2.png);
+    background-repeat: no-repeat;
+    background-position: bottom;
+}
+
+.image-container {
+    position: relative;
+
+}
+
+.holi-img-pstn-1 {
+
+    margin-left: 100px;
+}
+
+.holi-img-pstn-2 {
+    position: absolute;
+    left: -50px;
+    top: 70px;
+
+}
+
+
+
+
 /* Awesome Portfolio Part */
 
 .awesome {
@@ -239,4 +288,46 @@ ul input[type="submit"] {
     border-radius: 0 50px 50px 0;
     border: none;
     margin-left: -10px;
+}
+
+
+/* Footer Part */
+
+footer {
+    background: #070211;
+    justify-content: space-between;
+    color: white;
+    padding: 30px 60px;
+    align-items: center;
+}
+
+.footer-info {
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 60px;
+    align-items: center;
+
+}
+
+ul>h5 img {
+    align-items: center;
+    padding-right: 5px;
+    margin-bottom: -8px;
+
+}
+
+hr {
+    background: rgba(255, 255, 255, 0.15);
+
+}
+
+.social-link {
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.copyright {
+    display: flex;
+    justify-content: space-between;
 }
